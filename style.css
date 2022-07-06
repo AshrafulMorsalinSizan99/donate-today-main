@@ -1,3 +1,8 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
 .opening-class {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -5,10 +10,13 @@
     height: 600px;
 }
 
+
+
 .opening-class h1 {
     text-align: center;
     font-size: 80px;
     color: white;
+    margin-top: 0;
 
 }
 
@@ -16,6 +24,17 @@
     text-align: center;
     font-size: 20px;
     color: white;
+}
+
+.opening-class a {
+    display: block;
+    text-align: center;
+    width: 80px;
+}
+
+#foot {
+    font-family: lobster;
+    font-size: 30px;
 }
 
 .orange-color {
@@ -50,10 +69,36 @@
     width: 100%;
 }
 
-.planning p {
-    text-align: center;
+#donation h2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#donation p {
     font-size: 20px;
-    color: gray;
+}
+
+.planning h3 {
+    text-align: center;
+
+}
+
+.planning a {
+    display: block;
+    text-align: center;
+    width: 80px;
+}
+
+.planning input {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
 }
 
 .experience-item {
@@ -62,10 +107,13 @@
     margin-right: 5%;
     margin-top: 5%;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     border-radius: 10px;
 }
 
+button {
+    margin-left: -15px;
+}
 
 
 .flexible-container {
@@ -73,10 +121,47 @@
     margin-bottom: 100px;
 }
 
-.container {
-    width: 100%;
-    text-align: center;
+.final {
+    display: flex;
 }
+
+.vertical-center {
+    padding-left: 50px;
+}
+
+.half-width {
+    width: 100%;
+    padding: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.container input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    align-items: center;
+}
+
+.container button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: 1px solid #ddd;
+    color: white;
+}
+
 
 #inp {
     background-color: crimson;
@@ -89,7 +174,7 @@
 }
 
 #second-donation {
-    background-color: azure;
+    background-color: lightpink;
     border-color: red;
     text-align: center;
     color: red;
@@ -98,16 +183,19 @@
 #third-donation {
     background-color: azure;
     text-align: center;
+
 }
 
 #fourth-donation {
     background-color: azure;
     text-align: center;
+
 }
 
 #fifth-donation {
     background-color: azure;
     text-align: center;
+
 }
 
 #first {
